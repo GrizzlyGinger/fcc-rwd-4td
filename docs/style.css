@@ -1,0 +1,30 @@
+* {
+	box-sizing: border-box;
+	/* outline: 1px solid red; */
+}
+
+body {
+	font-family: Arial;
+}
+
+.sidebar-content {
+	display: flex;
+	flex-wrap: wrap;
+	min-height: 100%;
+}
+
+.sidebar-content > *:nth-child(1) {
+	flex: 1 1 25%;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	min-height: 100%;
+	min-width: 300px;
+	border-right: 2px solid #0f0f0f;
+}
+
+.sidebar-content > *:nth-child(2) {
+	flex: 1 1 75%;
+	position: absolute;
+	margin-left: 320px;
+}
