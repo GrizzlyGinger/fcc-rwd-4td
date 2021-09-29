@@ -28,3 +28,9 @@ body {
 	position: absolute;
 	margin-left: 320px;
 }
+
+@media min-width: 390px {
+	.sidebar-content	{
+		flex-wrap: nowrap;
+	}
+}
