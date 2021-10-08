@@ -3,6 +3,12 @@
 	/* outline: 1px solid red; */
 }
 
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 40px;
+  font-family: "Trebuchet MS";
+}
+
 body {
 	font-family: Arial;
 }
@@ -19,14 +25,29 @@ body {
 	top: 0px;
 	left: 0px;
 	min-height: 100%;
-	min-width: 300px;
+	min-width: 205px;
 	border-right: 2px solid #0f0f0f;
 }
 
 .sidebar-content > *:nth-child(2) {
 	flex: 1 1 75%;
 	position: absolute;
-	margin-left: 320px;
+	margin-left: 210px;
+	min-width: 340px;
+}
+
+.links {
+	margin: 10px 0;
+}
+
+.link-list {
+	list-style: none;
+}
+
+.link-list > li {
+		margin: 10px 0;
+		border: 1px solid rgb: (0, 0, 0);
+		border-style: solid none;
 }
 
 @media min-width: 390px {
