@@ -72,6 +72,11 @@ header {
 		width: 100%;
 }
 
+.logo {
+	min-width: 100%;
+	transform: rotate(180);
+}
+
 @media min-width: 390px {
 	.sidebar-content	{
 		flex-wrap: nowrap;
