@@ -1,6 +1,6 @@
 * {
 	box-sizing: border-box;
-	outline: 1px solid red;
+	/* outline: 1px solid red; */
 }
 
 html {
@@ -11,13 +11,18 @@ html {
 
 body {
 	font-family: "Trebuchet MS", Arial, sans-serif;
-	background-image: url("https://github.com/GrizzlyGinger/fcc-rwd-4td/blob/main/docs/images/Banner1(png).png?raw=true");
-	background-repeat: no-repeat;
-	/* background-position: left; */
+}
+
+header {
+	font-size: 17px;
 }
 
 a {
 	color: rgb(0, 0, 0);
+}
+
+code {
+	background-color: rgb(217, 217, 217);
 }
 
 .sidebar-content {
@@ -36,8 +41,15 @@ a {
 	max-width: 230px;
 	border-right: 2px solid #0f0f0f;
 	text-align: center;
+	background-image: linear-gradient(
+		45deg,
+		 rgb(0, 0, 0, 0.4),
+		 rgb(209, 209, 209, 0.8)
+	), url("https://github.com/GrizzlyGinger/fcc-rwd-4td/blob/main/docs/images/Banner1(png).png?raw=true");
+	background-repeat: no-repeat;
+	background-size: auto 100%;
+	background-position: center bottom;
 }
-
 
 .nav-link {
 	text-decoration: none;
@@ -49,10 +61,7 @@ a {
 	position: absolute;
 	margin-left: 235px;
 	min-width: 340px;
-}
-
-header {
-	font-size: 17px;
+	background-color: rgb(255, 255, 255);
 }
 
 .links {
@@ -64,16 +73,20 @@ header {
 	position: absolute;
 	width: 100%;
 	padding-left: 0;
+	border: solid rgb(0, 0, 0);
+	border-style: none none solid none;
 }
 
 .link-list > li {
-		margin: 10px 0;
+		margin: 0;
 		border: solid rgb: (0, 0, 0);
 		border-style: solid none none none;
 		padding-left: 20px;
 		padding-top: 10px;
+		padding-bottom:10px;
 		position: relative;
 		width: 100%;
+		background-color: rgb(69, 69, 69, 0.5);
 }
 
 .logo {
