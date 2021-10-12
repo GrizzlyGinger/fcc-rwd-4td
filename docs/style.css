@@ -1,6 +1,6 @@
 * {
 	box-sizing: border-box;
-	/* outline: 1px solid red; */
+	outline: 1px solid red;
 }
 
 html {
@@ -11,6 +11,9 @@ html {
 
 body {
 	font-family: "Trebuchet MS", Arial, sans-serif;
+	background-image: url("https://github.com/GrizzlyGinger/fcc-rwd-4td/blob/main/docs/images/Banner1(png).png?raw=true");
+	background-repeat: no-repeat;
+	/* background-position: left; */
 }
 
 a {
@@ -24,7 +27,7 @@ a {
 }
 
 .sidebar {
-	flex: 1 1 25%;
+	display: flex;
 	position: fixed;
 	top: 0px;
 	left: 0px;
@@ -34,6 +37,7 @@ a {
 	border-right: 2px solid #0f0f0f;
 	text-align: center;
 }
+
 
 .nav-link {
 	text-decoration: none;
