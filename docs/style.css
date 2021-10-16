@@ -94,8 +94,12 @@ code {
 	transform: rotate(180);
 }
 
-@media min-width: 390px {
-	.sidebar-content	{
-		flex-wrap: nowrap;
+@media (max-width: 595px) {
+	html {
+		font-size: 1.6rem;
 	}
+	h1, h2 {
+		font-size: 1.6rem;
+	}
+
 }
