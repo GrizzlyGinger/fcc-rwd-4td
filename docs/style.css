@@ -25,6 +25,7 @@ code {
 	background-color: rgb(217, 217, 217);
 }
 
+/*TODO implement Kevin Powell's sidebar-content correctly*/
 .sidebar-content {
 	display: flex;
 	flex-wrap: wrap;
@@ -94,6 +95,7 @@ code {
 	transform: rotate(180);
 }
 
+/*TODO implement media call to place navbar on top and re-arrange buttons*/
 @media (max-width: 595px) {
 	html {
 		font-size: 1.6rem;
